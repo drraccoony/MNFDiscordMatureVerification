@@ -48,6 +48,10 @@ A Discord bot built with discord.py to handle user verification for mature conte
     MATURE_ROLE_ID=987654321098765432
     ```
 
+    The bot needs `Enable Message Content Intent`, `Server Members Intent`, and `Presence Intent` in the bot settings. 
+    
+    Use the OAuth2 URL generator to invite the bot to your server with bot and applications.commands scopes, and give it appropriate permissions (`Send Messages`, `Attach Files`, and `Manage Roles`).
+
 5. Activate the Virtual Environment and Run the Bot:
     ```bash
     source bot-env/bin/activate  # On Windows: bot-env\Scripts\activate
